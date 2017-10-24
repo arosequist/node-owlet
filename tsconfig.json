@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "preserveConstEnums": false,
+        "sourceMap": true,
+        "target": "ES6",
+        "outDir": "./dist",
+        "declaration": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

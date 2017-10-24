@@ -1,0 +1,28 @@
+{
+  "name": "@arosequist/owlet",
+  "version": "0.0.1",
+  "description": "Node wrapper for the Owlet API",
+  "author": "Tony Rosequist",
+  "license": "GPL-3.0",
+  "main": "dist/index.js",
+  "typings": "dist/index",
+  "scripts": {
+    "clean": "rm -rf dist/",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arosequist/node-owlet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arosequist/node-owlet/issues"
+  },
+  "homepage": "https://github.com/arosequist/node-owlet#readme",
+  "dependencies": {
+    "axios": "0.17.0"
+  },
+  "devDependencies": {
+    "typescript": "2.5.3"
+  }
+}
