@@ -89,7 +89,6 @@ export const connect = async (email: string, password: string) => {
 
             const responseAsMap: {[prop: string]: number | string} = {};
             for (const { property } of response.data) {
-                console.log(property);
                 responseAsMap[property.name] = property.value;
             }
 
